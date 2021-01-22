@@ -6,7 +6,28 @@ int  sumbinaire();
 
 int main()
 {
-    
+	int cas;
+    while (1)
+    {
+    	printf("Shno baghi?\n");
+    	printf("1- mn int l binary\n");
+    	printf("2- mn bin tl int\n");
+    	printf("3- majmou3 lbinaries\n");
+    	do
+		{
+			printf("ra9m mn 1 tal 3");
+    		scanf("%i", cas);	
+		}
+		while(cas < 1 || cas > 3)
+    	
+    	switch (cas)
+    	{
+    		case 1:
+    			
+    			
+		}
+    	
+	}
 	return 0;
 }
 
