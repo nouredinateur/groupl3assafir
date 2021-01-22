@@ -7,28 +7,47 @@ int  sumbinaire();
 int main()
 {
 	int cas;
-    while (1)
-    {
-    	printf("Shno baghi?\n");
-    	printf("1- mn int l binary\n");
-    	printf("2- mn bin tl int\n");
-    	printf("3- majmou3 lbinaries\n");
-    	do
-		{
-			printf("ra9m mn 1 tal 3");
-    		scanf("%i", cas);	
-		}
-		while(cas < 1 || cas > 3)
+    int A[4], B[4], s[4];
+    int choice;
+    // while (1)
+    // {
+    // 	printf("Shno baghi?\n");
+    // 	printf("1- mn int l binary\n");
+    // 	printf("2- mn bin tl int\n");
+    // 	printf("3- majmou3 lbinaries\n");
+    // 	do
+	// 	{
+	// 		printf("ra9m mn 1 tal 3");
+    // 		scanf("%i", &cas);	
+	// 	}
+	// 	while(cas < 1 || cas > 3);
     	
-    	switch (cas)
-    	{
-    		case 1:
-    			
-    			
-		}
-    	
-	}
-	return 0;
+    // 	switch(cas)
+    // 	{
+    // 		case 1: 
+    //         case 2: 
+    //         case 3: 
+	// 	}
+	// }
+    printf("1- mn int l binary\n");
+  	printf("2- mn bin tl int\n");
+ 	printf("3- majmou3 lbinaries\n");
+    printf("Shno baghi?\n");
+    scanf("%d", &choice);
+    if (choice == 1){
+        int x;
+        intToBin(x);
+        scanf("%d", &x);
+    }
+    if (choice == 2){
+        binToint();
+    }
+    if (choice == 3){
+        sumbinaire(A, B, s);
+    } if (choice < 1 || choice > 3){
+        printf("Please Enter A number between 1 and 3");
+    }
+ 	
 }
 
 void intToBin(int x)
