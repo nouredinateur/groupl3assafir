@@ -6,7 +6,7 @@ int  sumbinaire();
 
 int main()
 {
-	intToBin(13);
+    
 	return 0;
 }
 
