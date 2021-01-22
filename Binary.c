@@ -9,6 +9,6 @@ int main(){
 	
 }
 
-int  sumbinaire(){
-	
+int  sumbinaire(int a , int b){
+
 	}
