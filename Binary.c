@@ -10,7 +10,7 @@ int main(){
 }
 
 
-int intTobin(){
+int binToint(){
 	
 	
 	
