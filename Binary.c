@@ -22,11 +22,11 @@ void sumbinaire(int A, int B, int S)
     for(i=0; i<4; i++)
     {
         if((A[i] == '0') && (B[i] == '0'))
-            sortie[i] = '0';
+            s[i] = '0';
         if((A[i] == '0') && (B[i] == '1'))
-            sortie[i] = '0';
+            s[i] = '0';
         if((A[i] == '1') && (B[i] == '0'))
-            sortie[i] = '0';
+            s[i] = '0';
         if((A[i] == '1') && (B[i] == '1'))
             s[i] = '1';
     }
