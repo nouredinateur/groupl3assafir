@@ -104,4 +104,3 @@ int binToint(){
    return 0;
 
 }
-
