@@ -15,7 +15,7 @@ int intToBin(int x)
 	
 }
 
-void sumbinaire(int A, int B, int S)
+int sumbinaire(int A[4], int B[4], int s[4])
 {
     int i;
  
@@ -30,6 +30,7 @@ void sumbinaire(int A, int B, int S)
         if((A[i] == '1') && (B[i] == '1'))
             s[i] = '1';
     }
+    return s[i];
 }
 
 
