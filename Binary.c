@@ -6,8 +6,8 @@ int  sumbinaire();
 
 int main()
 {
-	
-	
+	intToBin(13);
+	return 0;
 }
 
 void intToBin(int x)
@@ -24,6 +24,7 @@ void intToBin(int x)
         temp = temp / 2;
     }
     
+    printf("%i in binary is: ", x);
     for (int i = 3; i >= 0; i--)
     {
         printf("%i", bin[i]);
