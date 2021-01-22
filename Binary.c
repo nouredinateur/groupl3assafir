@@ -2,11 +2,13 @@
 
 
 
-
+int  sumbinaire();
 
 int main(){
 	
 	
 }
 
-
+int  sumbinaire(int x ){
+		
+	}
