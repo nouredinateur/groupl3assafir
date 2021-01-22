@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 
-
+int binToint();
 
 
 int main(){
@@ -10,3 +10,8 @@ int main(){
 }
 
 
+int intTobin(){
+	
+	
+	
+}
