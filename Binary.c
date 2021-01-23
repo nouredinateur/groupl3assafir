@@ -95,7 +95,7 @@ int sumbinaire(int A[4], int B[4], int s[4])
     scanf("%d\n",A);
     printf("doner\n");
     scanf("%d\n",B);
-    return s[i];
+    printf(" result : %d\n", s);
 }
 
 
